@@ -4,11 +4,13 @@ Permernant Alcohol Ban: Game of hide and seek where your only option is to hide 
 Dev Team:
   Michael Freeman
   Finn Mccartney
-  Josel Bontilao
+  Joselle Bontilao
+  //Hannah if need
   
  Art Team:
   Hannah Regan
   Josie Williamson
+  //Joselle if need
   
  Sound Team:
   Thomas Brenton Rule
