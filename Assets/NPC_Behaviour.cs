@@ -9,6 +9,8 @@ public class NPC_Behaviour : MonoBehaviour
   private UnityEngine.AI.NavMeshAgent agent;
   public TextMesh g;
   private Rigidbody rb;
+  public bool playerNear = false;
+  private bool playerInGroup = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,12 +38,11 @@ public class NPC_Behaviour : MonoBehaviour
     {
       Debug.Log("DDDD");
         //Check for a match with the specified name on any GameObject that collides with your GameObject
-        if (other.name == "Player")
+        if (other.name == "Player" && playerInGroup == false)
         {
             //If the GameObject's name matches the one you suggest, output this message in the console
             Debug.Log("Do something here");
-
-            g.text = "Hello";
+            playerNear = true;
             agent.Stop();
             //here we stop and talk
         }
@@ -53,8 +54,8 @@ public class NPC_Behaviour : MonoBehaviour
       void OnTriggerExit(Collider other)
      {
          agent.Resume();
-
-         g.text = "";
+         //need to ensure it is playernear
+         playerNear = false;
      }
 
     // Update is called once per frame
@@ -63,6 +64,13 @@ public class NPC_Behaviour : MonoBehaviour
       //rb.velocity = transform.right * 10;
       if (!agent.pathPending && agent.remainingDistance < 0.5f){
           GotoNextPoint();
+        }
+
+        if(Input.GetKeyDown(KeyCode.E) && playerNear){
+          Debug.Log("EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+          CharacterController.npcGroup = gameObject;
+          playerNear = true;
+          agent.Resume();
         }
     }
 }

@@ -34,5 +34,6 @@ void Update () {
       // vector3.right means the x-axis
       transform.localRotation = Quaternion.AngleAxis(-mouseLook.y, Vector3.right);
       character.transform.localRotation = Quaternion.AngleAxis(mouseLook.x, character.transform.up);
+      transform.position = character.transform.position;
   }
 }
