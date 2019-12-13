@@ -9,12 +9,13 @@ public class Player
 	public Array player_location = new double[3]; //x, y, and z coordinates
 	Map map;
 
+	/* Dont need this, Handled in the player movement script
 	public void move(String direction)
-		/* move player */
-	{
+			{
 		
 	}
-
+*/
+	//on button press
 	public void update_drunk_level(Player player)
 		/*Increase player's drunk level by 10 unless at 100 already*/	
 	{
