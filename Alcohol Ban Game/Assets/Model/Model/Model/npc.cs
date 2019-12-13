@@ -21,6 +21,7 @@ public class Npc
 	/*call out in response to input string*/
 	{
 		Console.WriteLine(input);
+        return "Reeee";
 	}
 
 	public void cops()

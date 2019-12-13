@@ -17,7 +17,7 @@ public class Map
 			int contains = Array.IndexOf(parties, all_parties[new_party]);
 			if (contains != -1)
 			{
-				parties.Add(new_party);
+				//parties.add(new_party);
 			}
 		}
 
