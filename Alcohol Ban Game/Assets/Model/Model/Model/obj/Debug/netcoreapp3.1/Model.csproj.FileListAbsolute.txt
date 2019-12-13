@@ -1,0 +1,11 @@
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\bin\Debug\netcoreapp3.1\Model.exe
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\bin\Debug\netcoreapp3.1\Model.runtimeconfig.json
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\bin\Debug\netcoreapp3.1\Model.runtimeconfig.dev.json
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Coding\PermAlcBan\permanentAlcoholBan\Assets\Model\Model\Model\obj\Debug\netcoreapp3.1\Model.pdb
